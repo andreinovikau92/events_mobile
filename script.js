@@ -5,7 +5,7 @@ window.addEventListener('DOMContentLoaded', () => {
         e.preventDefault();
 
         console.log('touchstart');
-        console.log(e.targetTouches);
+        console.log(e.changedTouches);
     }); 
 
    /*  box.addEventListener('touchmove', (e) => {
