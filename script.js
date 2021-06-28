@@ -5,17 +5,19 @@ window.addEventListener('DOMContentLoaded', () => {
         e.preventDefault();
 
         console.log('touchstart');
+        console.log(e.touches);
     }); 
 
-    box.addEventListener('touchmove', (e) => {
+   /*  box.addEventListener('touchmove', (e) => {
         e.preventDefault();
 
         console.log('move');
     });
 
-    box.addEventListener('touchmove', (e) => {
+    box.addEventListener('touchend', (e) => {
         e.preventDefault();
 
-        console.log('move');
-    });
+        console.log('touchend');
+    }); */
 });
+
