@@ -6,4 +6,10 @@ window.addEventListener('DOMContentLoaded', () => {
 
         console.log('touchstart');
     });
+
+    box.addEventListener('touchmove', (e) => {
+        e.preventDefault();
+
+        console.log('touchmove');
+    });
 });
